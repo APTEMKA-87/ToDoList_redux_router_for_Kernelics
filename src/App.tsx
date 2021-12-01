@@ -1,12 +1,14 @@
 import React from 'react';
+import {Route, Routes} from 'react-router-dom';
 import './App.css';
+import Layout from './Layout';
 
 function App() {
-  return (
-    <div>
-      Hello world
-    </div>
-  );
+    return <>
+        <Routes>
+            <Route path="/" element={<Layout/>}> </Route>
+        </Routes>
+    </>;
 }
 
 export default App;
