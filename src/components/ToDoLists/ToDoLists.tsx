@@ -1,4 +1,5 @@
 import React, {useCallback} from 'react';
+import {Todolist} from '../Todolist';
 import {v1} from 'uuid';
 import {useDispatch, useSelector} from 'react-redux';
 import {AppRootStateType} from '../../state/store';
@@ -10,7 +11,6 @@ import {
     removeTodolistAC
 } from '../../state/todolists-reducer';
 import style from './ToDoLists.module.css'
-import {Todolist} from '../../ToDoList';
 
 const ToDoLists = () => {
 
