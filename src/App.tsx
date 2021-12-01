@@ -13,8 +13,8 @@ function App() {
         <Routes>
             <Route path="/" element={<Layout/>}>
             <Route index element={<HomePage/>}/>
-            <Route path="about" element={<About/>}/>
-            <Route path="to_do_lists" element={<ToDoLists/>}/>
+            <Route path="/about" element={<About/>}/>
+            <Route path="/to_do_lists" element={<ToDoLists/>}/>
             <Route path="*" element={<NotFoundPage/>}/>
             </Route>
         </Routes>
