@@ -2,6 +2,7 @@ import React, {useCallback} from 'react'
 import {AddItemForm} from './AddItemForm'
 import {FilterValuesType} from './components/HomePage/HomePage';
 import { EditableSpan } from './EditableSpan';
+import { Task } from './Task';
 
 
 export type TaskType = {
