@@ -4,6 +4,7 @@ import style from './Home.module.css'
 import {AppRootStateType} from '../../state/store';
 import {addTodolistAC} from '../../todolists-reducer';
 import {AddItemForm} from '../../AddItemForm';
+import { TaskType } from '../../ToDoList';
 
 export type FilterValuesType = 'all' | 'active' | 'completed';
 export type TodolistType = {
